@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0878c9">
+  <title>ローチケ電子 アプリインストール</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: #f3f6f9; color: #18212b; display: grid; place-items: center; padding: 24px; }
+    main { width: min(100%, 440px); background: #fff; border-radius: 22px; padding: 32px 26px; box-shadow: 0 12px 36px rgba(18, 40, 60, .10); text-align: center; }
+    .app-icon { width: 86px; height: 86px; border-radius: 20px; object-fit: cover; margin: 4px auto 18px; display: block; }
+    h1 { font-size: 23px; margin: 0 0 10px; letter-spacing: .01em; }
+    p { line-height: 1.75; color: #536170; margin: 10px 0; font-size: 15px; }
+    a.install { display: block; margin: 26px 0 18px; padding: 16px 18px; border-radius: 12px; background: #0878c9; color: white; text-decoration: none; font-weight: 700; font-size: 17px; }
+    .steps { margin: 22px 0 0; padding: 18px 18px 18px 36px; border-radius: 12px; background: #f3f6f9; text-align: left; color: #394654; font-size: 14px; line-height: 1.8; }
+    .note { font-size: 12px; color: #788492; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>ローチケ電子</h1>
+    <p>iPhone用アプリのインストールページです。</p>
+    <a class="install" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fticketpage.github.io%2Fltike-ios-distribution%2Fmanifest.plist">アプリをインストール</a>
+    <ol class="steps">
+      <li>このページをiPhoneのSafariで開きます。</li>
+      <li>「アプリをインストール」をタップします。</li>
+      <li>ホーム画面にアプリが追加されるまで待ちます。</li>
+    </ol>
+    <p class="note">このアプリは登録済みのiPhoneにのみインストールできます。インストールできない場合は、配布担当者に端末のUDID登録状況をご確認ください。</p>
+  </main>
+</body>
+</html>
